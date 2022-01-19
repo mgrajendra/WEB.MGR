@@ -1,0 +1,38 @@
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBMXE1FYSH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XBMXE1FYSH');
+    </script>
+    <title>Rajendra M G - Start Auto Download file &amp; redirect back</title>
+    <!-- Favicon -->
+    <link href="images/logo/favicon.png" rel="icon">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function () {
+            $('a[data-auto-download]').each(function () {
+                var $this = $(this);
+                setTimeout(function () {
+                    window.location = "https://bit.ly/RajendraMGProfile"/*$this.attr('href')*/;
+                }, 2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <p>
+            The download should start shortly. If it doesn't, click
+            <a data-auto-download href="https://drive.google.com/uc?export=download&id=1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj">here</a>.
+        </p>
+        <p>
+            After file download if page doesn't redirect automatically, please click
+            <a data-auto-download href="https://www.mgrajendra.com">here</a> to redirect.
+        </p>
+    </div>
+</body>
+</html>
