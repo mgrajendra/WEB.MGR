@@ -14,11 +14,19 @@
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
         $(function () {
-            $('a[data-auto-download]').each(function () {
+            $('a[file-auto-download]').each(function () {
                 var $this = $(this);
                 setTimeout(function () {
-                    window.location = "https://bit.ly/RajendraMGProfile"; /*$this.attr('href');*/
-                }, 50);
+                    window.location = $this.attr('href');
+                }, 2000);
+            });
+        });
+        $(function () {
+            $('a[auto-redirect]').each(function () {
+                var $this = $(this);
+                setTimeout(function () {
+                    window.location = $this.attr('href');
+                }, 20000);
             });
         });
     </script>
@@ -26,12 +34,13 @@
 <body>
     <div class="wrapper">
         <p>
-            The download should start shortly. If it doesn't, click
-            <a data-auto-download href="https://drive.google.com/uc?export=download&id=1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj">here</a>.
+            File download should start shortly. If file download failed, please click
+            <a file-auto-download href="https://bit.ly/RajendraMGProfile">here</a> or
+            <a file-auto-download href="https://drive.google.com/uc?export=download&id=1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj">here</a> (alternate location).
         </p>
         <p>
-            After file download if page doesn't redirect automatically, please click
-            <a data-auto-download href="https://www.mgrajendra.com">here</a> to redirect.
+            After file download page will be redirect to home page, If doesn't redirected, please click
+            <a auto-redirect href="https://www.mgrajendra.com">here</a>.
         </p>
     </div>
 </body>

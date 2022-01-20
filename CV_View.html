@@ -14,11 +14,11 @@
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
         $(function () {
-            $('a[data-auto-download]').each(function () {
+            $('a[file-auto-download]').each(function () {
                 var $this = $(this);
                 setTimeout(function () {
-                    window.location = "https://bit.ly/RajendraMgCV-View"; /*$this.attr('href');*/
-                }, 50);
+                    window.location = $this.attr('href');
+                }, 2000);
             });
         });
     </script>
@@ -26,8 +26,9 @@
 <body>
     <div class="wrapper">
         <p>
-            The View should start shortly. If it doesn't, click
-            <a data-auto-download href="https://drive.google.com/file/d/1WiTezzkgKbvGp5u_WHjYoBZoYyu7SfuR/view">here</a>.
+            File download should start shortly. If file view failed, please click
+            <a file-auto-download href="https://bit.ly/RajendraMGCV-View">here</a> or
+            <a file-auto-download href="https://drive.google.com/file/d/1WiTezzkgKbvGp5u_WHjYoBZoYyu7SfuR/view">here</a> (alternate location).
         </p>
     </div>
 </body>
