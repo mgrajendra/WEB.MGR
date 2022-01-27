@@ -13,28 +13,23 @@
     <link href="images/logo/favicon.png" rel="icon">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
-        $(function () {
-            $('a[file-auto-download]').each(function () {
-                var $this = $(this);
-                setTimeout(function () {
-                    window.location = $this.attr('href');
-                }, 2000);
-            });
-        });
+        var downloadTimeout = setTimeout(function () {
+            window.location = document.getElementById('downloadLink').href;
+        }, 2000);
     </script>
 </head>
 <body>
     <div class="wrapper">
         <p>
             File download should start shortly. If file view failed, please click
-            <a file-auto-download href="https://bit.ly/RajendraMGProfile-View">here</a> or
-            <a file-auto-download href="https://drive.google.com/file/d/1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj/view">here</a> (alternate location).
+            <a id="downloadLink" href="https://bit.ly/RajendraMGProfile-View">here</a> or
+            <a id="downloadLink" href="https://drive.google.com/file/d/1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj/view">here</a> (alternate location).
         </p>
     </div>
     <p class="text-white font-weight-bold">
         Your Visitor No:
         <!-- Start of WebFreeCounter Code -->
-        <a href="Index.html"><img src="https://www.webfreecounter.com/hit.php?id=gmpoakp&nd=6&style=71" border="0" alt="visitor counter"></a>
+        <a href="."><img src="https://www.webfreecounter.com/hit.php?id=gmpoakp&nd=6&style=71" border="0" alt="visitor counter"></a>
         <!-- End of WebFreeCounter Code -->
     </p>
 </body>
