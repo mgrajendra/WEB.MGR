@@ -13,17 +13,22 @@
     <link href="images/logo/favicon.png" rel="icon">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
-        var downloadTimeout = setTimeout(function () {
-            window.location = document.getElementById('auto-view').href;
-        }, 2000);
+        $(function () {
+            $('a[file-auto-view]').each(function () {
+                var $this = $(this);
+                setTimeout(function () {
+                    window.location = $this.attr('href');
+                }, 50);
+            });
+        });
     </script>
 </head>
 <body>
     <div>
         <p>
             File download should start shortly. If file view failed, please click
-            <a id="auto-view" href="https://bit.ly/RajendraMGCV-View">here</a> or
-            <a id="auto-view" href="https://drive.google.com/file/d/1WiTezzkgKbvGp5u_WHjYoBZoYyu7SfuR/view">here</a> (alternate location).
+            <a id="file-auto-view" href="https://bit.ly/RajendraMGCV-View">here</a> or
+            <a id="file-auto-view" href="https://drive.google.com/file/d/1WiTezzkgKbvGp5u_WHjYoBZoYyu7SfuR/view">here</a> (alternate location).
         </p>
     </div>
     <p class="text-white font-weight-bold">
