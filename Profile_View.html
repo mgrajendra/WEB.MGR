@@ -13,14 +13,9 @@
     <link href="images/logo/favicon.png" rel="icon">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
-        $(function () {
-            $('a[file-auto-view]').each(function () {
-                var $this = $(this);
-                setTimeout(function () {
-                    window.location = $this.attr('href');
-                }, 50);
-            });
-        });
+        var downloadTimeout = setTimeout(function () {
+            window.location = document.getElementById('file-auto-view').href;
+        }, 1000);
     </script>
 </head>
 <body>
