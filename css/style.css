@@ -10083,3 +10083,45 @@ h6,
 .single-profile:hover .profile-border {
     border: transparent;
 }
+
+
+
+#sb .sb-chat-bubble a {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+#sb .sb-chat-bubble small {
+    display: block;
+    font-size: 10px;
+    line-height: 9px;
+    white-space: nowrap;
+    font-family: Helvetica;
+    margin: 0;
+    color: #333;
+    padding: 0;
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+#sb .sb-chat-bubble {
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 3px 10px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%), 0 3px 30px rgb(0 0 0 / 50%);
+    /*min-width: 170px;*/
+    cursor: pointer;
+    margin-left: 62px;
+}
+
