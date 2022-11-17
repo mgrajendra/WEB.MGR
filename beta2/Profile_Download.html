@@ -1,0 +1,43 @@
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBMXE1FYSH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XBMXE1FYSH');
+    </script>
+    <title>Rajendra M G - Start Auto Download file &amp; redirect back</title>
+    <!-- Favicon -->
+    <link href="images/logo/favicon.png" rel="icon">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        var downloadTimeout = setTimeout(function () {
+            window.location = document.getElementById('file-auto-download').href; '_blank'
+        }, 1000);
+        var downloadTimeout = setTimeout(function () {
+            window.location = document.getElementById('auto-redirect').href;
+        }, 10000);
+    </script>
+</head>
+<body>
+    <div>
+        <p>
+            File download should start shortly. If file download failed, please click
+            <a id="file-auto-download" href="https://bit.ly/RajendraMGProfile">here</a> or
+            <a id="file-auto-download" href="https://drive.google.com/uc?export=download&id=1D7c2EHNHPdqCwZHZhZG78KJ4l-6fJKDj">here</a> (alternate location).
+        </p>
+        <p>
+            After Profile download page will be redirect to home page, If doesn't redirected, please click
+            <a id="auto-redirect" href=".">here</a>.
+        </p>
+    </div>
+    <p class="text-white font-weight-bold">
+        Your Visitor No:
+        <!-- hitwebcounter Code START -->
+        <img src="https://hitwebcounter.com/counter/counter.php?page=7984604&style=0006&nbdigits=6&type=page&initCount=08543" title="Free Counter" Alt="web counter" border="0" />
+        <!-- End of HitWebCounter Code -->
+    </p>
+</body>
+</html>
