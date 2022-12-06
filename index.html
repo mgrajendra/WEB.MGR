@@ -112,7 +112,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="images/profile.jpg" alt="">
+                    <img class="img-fluid rounded w-100" src="images/Profile.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Senior IT Architect</h3>
@@ -2029,7 +2029,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <!--Start of WhatsApp Script-->
-    <div id="sb" class="sb-c float">
+    <!--<div id="sb" class="sb-c float">
         <a href="https://api.whatsapp.com/send/?phone=919742447771&text&app_absent=0" target="_blank" id="" style="display: block;">
             <img class="sb-chat-icon" alt="" src="/images/WhatsAppLogo.png" style="width: 75px; height: 75px;">
             <div class="sb-chat-bubble" style="width:100px;">
@@ -2038,7 +2038,7 @@
             </div>
             <a class="" href="https://api.whatsapp.com/send/?phone=919742447771&text&app_absent=0" target="_blank" style="background:#EE3D3D;width:60px;"></a>
         </a>
-    </div>
+    </div>-->
     <!--End of WhatsApp Script-->
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -2053,5 +2053,123 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+    <!--Start of WhatsApp Script-->
+    <style>
+        .wafloat {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 150px;
+            left: 30px;
+            /*background-color: #2cc348;
+            color: #FFF;*/
+            border-radius: 50px;
+            text-align: center;
+            font-size: 38px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .wamy-float {
+            margin-top: 11px;
+        }
+    </style>
+    <a id="wahreflink" href="#" class="wafloat waford" target="_blank">
+        <img class="sb-chat-icon" alt="" src="/images/WhatsAppLogo.png" style="width: 75px; height: 75px;">
+        <i class="fa fa-whatsapp wamy-float"></i>
+    </a>
+    <script>
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
+        if (isMobile) {
+            jQuery('#desksearch').empty();
+            jQuery('#mobilesearch').show();
+            jQuery('#wahreflink').attr("href", "whatsapp://send?text=https%3A%2F%2Fmgrajendra.com%2F%0A%0AHi%20Rajendra...%20there...&phone=919742447771");
+        } else {
+            jQuery('#desksearch').show();
+            jQuery('#mobilesearch').empty();
+            jQuery('#wahreflink').attr("href", "https://web.whatsapp.com/send?text=https%3A%2F%2Fmgrajendra.com%2F%0A%0AHi%20Rajendra...%20there...&phone=919742447771");
+            // Desktop functionality
+        }
+    </script>
+    <!--End of WhatsApp Script-->
+    <!--Start of Call Script-->
+    <style>
+        .callfloat {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 250px;
+            left: 30px;
+            /*background-color: #2cc348;
+            color: #FFF;*/
+            border-radius: 50px;
+            text-align: center;
+            font-size: 38px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .wamy-float {
+            margin-top: 11px;
+        }
+    </style>
+    <a id="callhreflink" href="#" class="callfloat waford" target="_blank">
+        <img class="sb-chat-icon" alt="" src="/images/Phone.png" style="width: 75px; height: 75px;">
+        <i class="fa fa-whatsapp wamy-float"></i>
+    </a>
+    <script>
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
+        if (isMobile) {
+            jQuery('#desksearch').empty();
+            jQuery('#mobilesearch').show();
+            jQuery('#callhreflink').attr("href", "tel:+919742447771");
+        } else {
+            jQuery('#desksearch').show();
+            jQuery('#mobilesearch').empty();
+            jQuery('#callhreflink').attr("href", "tel:+919742447771");
+            // Desktop functionality
+        }
+    </script>
+    <!--End of Call Script-->
+    <!--Start of eMail Script-->
+    <style>
+        .emailfloat {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            left: 30px;
+            /*background-color: #2cc348;
+            color: #FFF;*/
+            border-radius: 50px;
+            text-align: center;
+            font-size: 38px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .wamy-float {
+            margin-top: 11px;
+        }
+    </style>
+    <a id="emailhreflink" href="#" class="emailfloat waford" target="_blank">
+        <img class="sb-chat-icon" alt="" src="/images/eMail.png" style="width: 75px; height: 75px;">
+        <i class="fa fa-whatsapp wamy-float"></i>
+    </a>
+    <script>
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
+        if (isMobile) {
+            jQuery('#desksearch').empty();
+            jQuery('#mobilesearch').show();
+            jQuery('#emailhreflink').attr("href", "mailto:contact@mgrajendra.com");
+        } else {
+            jQuery('#desksearch').show();
+            jQuery('#mobilesearch').empty();
+            jQuery('#emailhreflink').attr("href", "mailto:contact@mgrajendra.com");
+            // Desktop functionality
+        }
+    </script>
+    <!--End of WhatsApp Script-->
+    <!--Start of Call Script-->
 </body>
 </html>
