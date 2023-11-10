@@ -92,6 +92,7 @@
                         <a href="Profile_View.html" class="btn btn-outline-light mr-5" target="_blank">View Profile</a>
                         <a href="Profile_Download.html" class="btn btn-outline-light mr-5" target="_blank">Download Profile</a>
                         <a href="#contact" class="btn btn-outline-light mr-5">Contact to Hire</a>
+                        <a href="https://meet.boomerangapp.com/mgrajendra.mgr.gmail.com/MeetMe" target="_blank" class="btn btn-outline-light mr-5">Schedule Meeting</a>
                         <!--<button type="button" class="btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                             <span></span>
@@ -1827,6 +1828,9 @@
                     <div class="d-flex justify-content-center mb-10">
                         <a class="btn btn-light mr-2" href="mailto:contact@mgrajendra.com"><i class="fa fa-envelope mr-2"></i>contact@mgrajendra.com</a>
                     </div>
+                    <div class="d-flex justify-content-center mb-10">
+                        <a class="btn btn-light mr-2" href="https://meet.boomerangapp.com/mgrajendra.mgr.gmail.com/MeetMe" target="_blank"><i class="fa fa-calendar mr-2"></i>Schedule to Meet</a>
+                    </div>
                     <!--<div class="d-flex justify-content-center mb-10">
                         <a class="btn btn-light mr-2" href="https://t.me/mgrajendra"><i class="fab fa-telegram"></i>Telegram</a>
                     </div>
@@ -2169,7 +2173,45 @@
             // Desktop functionality
         }
     </script>
-    <!--End of WhatsApp Script-->
-    <!--Start of Call Script-->
+    <!--End of eMail Script-->
+    <!--Start of eMail Script-->
+    <style>
+        .schedulesfloat {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            left: 30px;
+            /*background-color: #2cc348;
+            color: #FFF;*/
+            border-radius: 50px;
+            text-align: center;
+            font-size: 38px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .wamy-float {
+            margin-top: 11px;
+        }
+    </style>
+    <a id="emailhreflink" href="https://meet.boomerangapp.com/mgrajendra.mgr.gmail.com/MeetMe" target="_blank" class="schedulesfloat waford">
+        <img class="sb-chat-icon" alt="" src="/images/Logo/Schedules.png" style="width: 75px; height: 75px;">
+        <i class="fa fa-calendar wamy-float"></i>
+    </a>
+    <script>
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
+        if (isMobile) {
+            jQuery('#desksearch').empty();
+            jQuery('#mobilesearch').show();
+            jQuery('#emailhreflink').attr("href", "mailto:contact@mgrajendra.com");
+        } else {
+            jQuery('#desksearch').show();
+            jQuery('#mobilesearch').empty();
+            jQuery('#emailhreflink').attr("href", "mailto:contact@mgrajendra.com");
+            // Desktop functionality
+        }
+    </script>
+    <!--End of eMail Script-->
 </body>
 </html>
