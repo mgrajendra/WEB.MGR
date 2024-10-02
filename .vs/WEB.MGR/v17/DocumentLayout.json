@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_View.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Profile_View.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_Download.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CV_Download.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_View.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CV_View.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_Download.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Profile_Download.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CV_Download.html",
+              "DocumentMoniker": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_Download.html",
+              "RelativeDocumentMoniker": "CV_Download.html",
+              "ToolTip": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_Download.html",
+              "RelativeToolTip": "CV_Download.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T20:52:08.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CV_View.html",
+              "DocumentMoniker": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_View.html",
+              "RelativeDocumentMoniker": "CV_View.html",
+              "ToolTip": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\CV_View.html",
+              "RelativeToolTip": "CV_View.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T20:52:07.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile_View.html",
+              "DocumentMoniker": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_View.html",
+              "RelativeDocumentMoniker": "Profile_View.html",
+              "ToolTip": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_View.html",
+              "RelativeToolTip": "Profile_View.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T20:52:06.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile_Download.html",
+              "DocumentMoniker": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_Download.html",
+              "RelativeDocumentMoniker": "Profile_Download.html",
+              "ToolTip": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\Profile_Download.html",
+              "RelativeToolTip": "Profile_Download.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T20:51:50.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Rajendra\\OneDrive - IT Solution Expert\\Documents\\GitHub\\WEB.MGR\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAADECAAAAAAAAAAAAAEQCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T20:51:58.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
